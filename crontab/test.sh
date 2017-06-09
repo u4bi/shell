@@ -1,6 +1,7 @@
 echo "test"
 
 # crontab -e
+# 1 * * * * /Users/letsee/Public/u4bi/shell/crontab/test.sh
 
 # vi test.sh
 
@@ -53,3 +54,12 @@ echo "test"
 # w = 2
 # x = 1 
 # - = 0 
+
+
+
+
+# chmod 222 test.sh
+# - -w- -w- -w-
+
+## chmod 775 test.sh
+# - rwx rwx r-x
